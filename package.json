@@ -1,0 +1,32 @@
+{
+  "name": "ahj-rxjs_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyAg1967/ahj-RxJS_backend.git"
+  },
+  "author": "Dmitiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DmitriyAg1967/ahj-RxJS_backend/issues"
+  },
+  "homepage": "https://github.com/DmitriyAg1967/ahj-RxJS_backend#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "faker": "5.5.3",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.14.1",
+    "koa-body": "4.2.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.0",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0",
+    "ws": "^8.12.0"
+  }
+}
